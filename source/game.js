@@ -21,11 +21,11 @@ function preload() {
     if (window.baseUrl)
         this.load.setBaseURL(baseUrl);
 
-    this.load.image('cell', 'cell.png');
-    this.load.image('boss', 'boss.png');
-    this.load.image('reward', 'reward.png');
-    this.load.image('coin', 'coin.png');
-    this.load.image('secret', 'secret.png');
+    this.load.image('cell', 'images/cell.png');
+    this.load.image('boss', 'images/boss.png');
+    this.load.image('reward', 'images/reward.png');
+    this.load.image('coin', 'images/coin.png');
+    this.load.image('secret', 'images/secret.png');
 }
 
 var startText;
